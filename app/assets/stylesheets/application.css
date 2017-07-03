@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+header{
+  font-variant: small-caps;
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+}
+footer{
+  text-align: center;
+  font-variant: small-caps;
+  display: block;
+  overflow: hidden;
+  padding-top: 5px;
+  border-top: 1px solid black;
+}
+.main-sidebar{
+  max-width: 16%;
+  display: block;
+  border-right: 1px solid black
+}
+.user-image{
+  padding: 18px;
+}
+.heading{
+  text-align: center;
+}
+.subtitle{
+ text-align: right;
+ margin-right: 20px; 
+}
